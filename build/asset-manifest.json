@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/hotel-project-react/static/css/main.4cfd6487.css",
-    "main.js": "/hotel-project-react/static/js/main.39e4bebf.js",
+    "main.css": "/hotel-project-react/static/css/main.0de89b9a.css",
+    "main.js": "/hotel-project-react/static/js/main.bdee62bf.js",
     "static/media/carousel-1.jpg": "/hotel-project-react/static/media/carousel-1.580323fd42819ddb11d9.jpg",
+    "static/media/carousel-2.jpg": "/hotel-project-react/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
     "static/media/video.jpg": "/hotel-project-react/static/media/video.5a8116233761d401c8b1.jpg",
-    "static/media/logo.png": "/hotel-project-react/static/media/logo.c93cd2e94c76c6f1d62d.png",
+    "static/media/about-2.jpg": "/hotel-project-react/static/media/about-2.f237c61ab44741d424c9.jpg",
+    "static/media/about-3.jpg": "/hotel-project-react/static/media/about-3.19e8490bcc8db113243e.jpg",
+    "static/media/room-3.jpg": "/hotel-project-react/static/media/room-3.890ab1a8d25b31cd5d87.jpg",
+    "static/media/about-4.jpg": "/hotel-project-react/static/media/about-4.507986633c7560c264ce.jpg",
+    "static/media/room-1.jpg": "/hotel-project-react/static/media/room-1.8fda0e4d8cf58936698e.jpg",
+    "static/media/about-1.jpg": "/hotel-project-react/static/media/about-1.ce9897e4caca9a809a07.jpg",
+    "static/media/team-1.jpg": "/hotel-project-react/static/media/team-1.f24c58a224dbc59096e8.jpg",
+    "static/media/room-2.jpg": "/hotel-project-react/static/media/room-2.ad8e1de432e73dae54f9.jpg",
+    "static/media/team-3.jpg": "/hotel-project-react/static/media/team-3.83d34ae55471b6c736a6.jpg",
+    "static/media/logo (2).png": "/hotel-project-react/static/media/logo (2).5db500c8cf4f700f8bb3.png",
+    "static/media/team-4.jpg": "/hotel-project-react/static/media/team-4.c997387c1d31db5d174b.jpg",
+    "static/media/team-2.jpg": "/hotel-project-react/static/media/team-2.c0cc63baac1814196277.jpg",
     "static/media/slick.svg": "/hotel-project-react/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/hotel-project-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/hotel-project-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/hotel-project-react/index.html",
     "static/media/slick.woff": "/hotel-project-react/static/media/slick.295183786cd8a1389865.woff",
-    "main.4cfd6487.css.map": "/hotel-project-react/static/css/main.4cfd6487.css.map",
-    "main.39e4bebf.js.map": "/hotel-project-react/static/js/main.39e4bebf.js.map"
+    "main.0de89b9a.css.map": "/hotel-project-react/static/css/main.0de89b9a.css.map",
+    "main.bdee62bf.js.map": "/hotel-project-react/static/js/main.bdee62bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cfd6487.css",
-    "static/js/main.39e4bebf.js"
+    "static/css/main.0de89b9a.css",
+    "static/js/main.bdee62bf.js"
   ]
 }
