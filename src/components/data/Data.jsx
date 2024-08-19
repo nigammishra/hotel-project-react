@@ -67,14 +67,14 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "../assets/img/carousel-1.jpg",
+    img: "../../images/carousel-1.jpg",
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
-    img: "../assets/img/carousel-2.jpg",
+    img: "../images/carousel-2.jpg",
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     btn1: "Our Room",
@@ -135,22 +135,22 @@ export const services = [
 ];
 export const team = [
   {
-    image: "../assets/img/team-1.jpg",
+    image: "../images/team-1.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-2.jpg",
+    image: "../images/team-2.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../images/team-3.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../images/team-3.jpg",
     name: "Full Name",
     designation: "Designation",
   },
@@ -242,7 +242,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right  text-primary position-absolute end-0 bottom-0 me-4 mb-3 "></i>
     ),
-    img: "../assets/img/testimonial-1.jpg",
+    img: "../images/testimonial-1.jpg",
   },
   {
     description:
@@ -252,7 +252,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right  text-primary position-absolute end-0 bottom-0 me-4 mb-3 "></i>
     ),
-    img: "../assets/img/testimonial-2.jpg",
+    img: "../images/testimonial-2.jpg",
   },
   {
     description:
@@ -262,7 +262,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right  text-primary position-absolute end-0 bottom-0 me-4 mb-3 "></i>
     ),
-    img: "../assets/img/testimonial-3.jpg",
+    img: "../images/testimonial-3.jpg",
   },
   {
     description:
@@ -272,7 +272,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right  text-primary position-absolute end-0 bottom-0 me-4 mb-3 "></i>
     ),
-    img: "../assets/img/testimonial-2.jpg",
+    img: "../images/testimonial-2.jpg",
   },
   {
     description:
@@ -282,13 +282,13 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right  text-primary position-absolute end-0 bottom-0 me-4 mb-3 "></i>
     ),
-    img: "../assets/img/testimonial-2.jpg",
+    img: "../images/testimonial-2.jpg",
   },
 ];
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpg",
+    img: "../images/room-1.jpg",
     price: "$110/night",
     name: "Junior Suit",
     star: [
@@ -305,7 +305,7 @@ export const roomItems = [
   },
 
   {
-    img: "../assets/img/room-2.jpg",
+    img: "../images/room-2.jpg",
     price: "$110/night",
     name: "Executive Suite",
     star: [
@@ -321,7 +321,7 @@ export const roomItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/room-3.jpg",
+    img: "../images/room-3.jpg",
     price: "$110/night",
     name: "Super Deluxe",
     star: [

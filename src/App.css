@@ -18,5 +18,8 @@
     bottom: 0;
 }
 .bg-image {
-    background-image: url('../public/assets/img/carousel-1.jpg');
+    background-image: url('../src/images/carousel-1.jpg');
+}
+a{
+    list-style: none;
 }
