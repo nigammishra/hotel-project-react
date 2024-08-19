@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/style.css";
-// import "./css/bootstrap.min.css";
+import "./css/bootstrap.min.css";
 import "./css/animate.css";
 import "./css/animate.min.css";
 import "./App.css";

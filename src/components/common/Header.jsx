@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navList } from "../data/Data";
 import SocialIcons from "./SocialIcons";
-import logo from "../../images/logo.png"
+import logo from "../../images/logo (2).png"
 
 export default function Header() {
   const [navbarCollapse, setNavbarCollapse] = useState(false);
@@ -30,7 +30,7 @@ export default function Header() {
                 src={logo} // Replace with the actual path to your logo image
                 alt="Hotelier Logo"
                 className="logo-image"
-                style={{width:'200px'}}
+                style={{width:'150px'}}
               />
             </Link>
             ;
@@ -39,7 +39,12 @@ export default function Header() {
           <div className="col-lg-8">
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
               <Link to="/" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 text-primary text-uppercase">Hotelier</h1>
+              <img
+                src={logo} // Replace with the actual path to your logo image
+                alt="Hotelier Logo"
+                className="logo-image"
+                style={{width:'150px'}}
+              />
               </Link>
               <button
                 type="button"

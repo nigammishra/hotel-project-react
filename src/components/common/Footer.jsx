@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { footerContact, footerItem, socialIcons } from "../data/Data";
 import Newsletter from "../home/Newsletter";
+import logo from "../../images/logo (2).png"
 
 export default function Footer() {
   return (
@@ -13,11 +14,16 @@ export default function Footer() {
         <div className="container pb-5">
           <div className="row g-5">
             <div className="col-md-6 col-lg-4">
-              <div className="bg-primary rounded p-4">
+              <div className=" rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                <img
+                src={logo} // Replace with the actual path to your logo image
+                alt="Hotelier Logo"
+                className="logo-image"
+                style={{width:'150px'}}
+              />
                 </Link>
-                <p className="text-white mb-0">
+                <p className="text-white mb-0 pt-2">
                   Build a professional website for your hotel business and grab
                   the attention of new visitors upon your site’s launch.
                 </p>
@@ -60,12 +66,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="container-fluid" style={{height:'50px'}}>
+      <div className="container-fluid" style={{height:'30px',backgroundColor:'#0f172b'}}>
       <div className="footer_bottom">
             <div className="container">
-              <div className="align-items-center copyright1">
-                <div className="col-lg-6 col-sm-7">
-                  <p className="mb-0 f_400">©  2024 All rights reserved <Link to="/"> Hoteller</Link></p>
+              <div className="align-items-center  copyright1">
+                <div className="col-md-12 ">
+                  <p className="mb-0 f_400 align-items-center text-center">©  2024 All rights reserved <Link style={{textDecoration:'none'}} to="/"> Hoteller</Link></p>
                 </div>
               </div>
             </div>

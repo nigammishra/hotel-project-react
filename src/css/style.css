@@ -196,6 +196,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -452,6 +453,7 @@
     color: #FFFFFF;
     font-size: 15px;
     font-weight: normal;
+    text-decoration: none;
     text-transform: capitalize;
     transition: .3s;
 }
