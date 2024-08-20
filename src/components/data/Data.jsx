@@ -19,28 +19,28 @@ export const navList = [
     path: "/rooms",
     text: "Rooms",
   },
-  {
-    id: 5,
-    path: "/page",
-    text: "Page",
-    subItems: [
-      {
-        id: 51,
-        path: "/booking",
-        text: "Booking",
-      },
-      {
-        id: 52,
-        path: "/team",
-        text: "Our Team",
-      },
-      {
-        id: 53,
-        path: "/testimonial",
-        text: "Testimonial",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   path: "/page",
+  //   text: "Page",
+  //   subItems: [
+  //     {
+  //       id: 51,
+  //       path: "/booking",
+  //       text: "Booking",
+  //     },
+  //     {
+  //       id: 52,
+  //       path: "/team",
+  //       text: "Our Team",
+  //     },
+  //     {
+  //       id: 53,
+  //       path: "/testimonial",
+  //       text: "Testimonial",
+  //     },
+  //   ],
+  // },
   {
     id: 6,
     path: "/contact",

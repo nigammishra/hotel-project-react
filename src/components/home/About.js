@@ -71,7 +71,7 @@ export default function About() {
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
                     src={about1}
-                    style={{ marginTop: "25%" }}
+                    style={{ marginTop: "25%", borderRadius:'10px' }}
                     alt="about1"
                   />
                 </div>
@@ -80,6 +80,7 @@ export default function About() {
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
                     src={about2}
+                    style={{  borderRadius:'10px' }}
                     alt="about2"
                   />
                 </div>
@@ -88,6 +89,7 @@ export default function About() {
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
                     src={about3}
+                    style={{  borderRadius:'10px' }}
                     alt="about3"
                   />
                 </div>
@@ -96,6 +98,7 @@ export default function About() {
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
                     src={about4}
+                    style={{  borderRadius:'10px' }}
                     alt="about4"
                   />
                 </div>
