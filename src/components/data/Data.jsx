@@ -1,7 +1,7 @@
 export const navList = [
   {
     id: 1,
-    path: "/",
+    path: "/hotel-project-react",
     text: "Home",
   },
   {

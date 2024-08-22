@@ -1,6 +1,7 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { services } from "../data/Data";
+import { Fade } from "react-awesome-reveal"; // Import the Fade component
 
 export default function Services() {
   return (
@@ -16,16 +17,18 @@ export default function Services() {
           </div>
           <div className="row g-4">
             {services.map((item, index) => (
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <a className="service-item rounded" href="">
-                  <div className="service-icon bg-transparent border rounded p-1">
-                    <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                      {item.icon}
+              <div className="col-lg-4 col-md-6" key={index}>
+                <Fade  direction="up" delay={index * 100}>
+                  <a className="service-item rounded" href="">
+                    <div className="service-icon bg-transparent border rounded p-1">
+                      <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                        {item.icon}
+                      </div>
                     </div>
-                  </div>
-                  <h5 className="mb-3">{item.name}</h5>
-                  <p className="text-body mb-0">{item.discription}</p>
-                </a>
+                    <h5 className="mb-3">{item.name}</h5>
+                    <p className="text-body mb-0">{item.discription}</p>
+                  </a>
+                </Fade>
               </div>
             ))}
           </div>

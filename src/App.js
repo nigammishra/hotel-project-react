@@ -11,7 +11,7 @@ import {
   Booking,
   AboutUs,
   Contact,
-  PageNotFound,
+  // PageNotFound,
   Room,
   Services,
   Team,
@@ -25,13 +25,13 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/hotel-project-react" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/team" element={<Team />} />
             <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/*" element={<PageNotFound />} />
+            {/* <Route path="/*" element={<PageNotFound />} /> */}
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
           </Routes>
