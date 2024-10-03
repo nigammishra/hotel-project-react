@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navList } from "../data/Data";
 import SocialIcons from "./SocialIcons";
-import logo from "../../images/logo (2).png"
+import logo from "../../images/whitelogo.png"
 
 export default function Header() {
   const [navbarCollapse, setNavbarCollapse] = useState(false);
@@ -30,7 +30,7 @@ export default function Header() {
                 src={logo} // Replace with the actual path to your logo image
                 alt="Hotelier Logo"
                 className="logo-image"
-                style={{width:'150px'}}
+                style={{width:'200px'}}
               />
             </Link>
             ;
