@@ -25,7 +25,7 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/hotel-project-react" element={<Home />} />
+            <Route path="/hotel-project-react/" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/team" element={<Team />} />
             <Route path="/testimonial" element={<Testimonial />} />
