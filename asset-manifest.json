@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hotel-project-react/static/css/main.26358616.css",
-    "main.js": "/hotel-project-react/static/js/main.12f93d79.js",
+    "main.js": "/hotel-project-react/static/js/main.90144991.js",
     "static/media/carousel-1.jpg": "/hotel-project-react/static/media/carousel-1.580323fd42819ddb11d9.jpg",
     "static/media/carousel-2.jpg": "/hotel-project-react/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
     "static/media/video.jpg": "/hotel-project-react/static/media/video.5a8116233761d401c8b1.jpg",
@@ -24,10 +24,10 @@
     "index.html": "/hotel-project-react/index.html",
     "static/media/slick.woff": "/hotel-project-react/static/media/slick.295183786cd8a1389865.woff",
     "main.26358616.css.map": "/hotel-project-react/static/css/main.26358616.css.map",
-    "main.12f93d79.js.map": "/hotel-project-react/static/js/main.12f93d79.js.map"
+    "main.90144991.js.map": "/hotel-project-react/static/js/main.90144991.js.map"
   },
   "entrypoints": [
     "static/css/main.26358616.css",
-    "static/js/main.12f93d79.js"
+    "static/js/main.90144991.js"
   ]
 }
